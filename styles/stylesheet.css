@@ -1,0 +1,86 @@
+* { box-sizing: border-box; }
+* {font-family: sans-serif;}
+h1 {
+  color: hsl(285, 40%, 98%);
+  padding-left: 100px;
+}
+header {
+    background-image: url('../images/lesson04-mock2-banner-image.jpg');
+    background-size: cover;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+h2 {
+  color: hsl(285, 40%, 98%);
+  font-style: italic;
+  margin: 0;
+}
+h3 {
+  color: hsl(240, 6%, 10%);
+  height: 2rem;
+}
+h4 {
+    color: hsl(285, 40%, 98%);
+}
+#menu-selections {
+  padding-left: 100px;
+}
+.sub-title {
+    padding-left: 100px;
+}
+.menu{
+    background-color:azure;
+    margin: 0;
+    padding: 0;
+}
+#quote{
+    color:blue;
+    font-style: normal;
+}
+#quote-source{
+    color:blue;
+}
+.container {
+    display:flex;
+}
+.article {
+    flex-direction: column;
+    justify-content:left;
+    padding-left: 100px;
+}
+.sidebar {
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  align-items:end; 
+}
+p.side-news{
+    width: 75%;
+}
+footer {
+    background-image: url('../images/lesson04-mock4-footer-image.jpg');
+}
+.footer-container {
+    display:flex;
+    justify-content: center;
+}
+.footer-text {
+    width: 50%;
+    text-align: center;
+}
+a[href="TBD"] {
+    text-decoration: none;
+}
+a[href="X"]{
+    text-decoration: none;
+    color:white;
+    text-align: center;
+}
+#cat-logo{
+    color:white;
+    text-align: center;
+}
+img {
+    max-width: 100%;
+    height: auto;
+}
