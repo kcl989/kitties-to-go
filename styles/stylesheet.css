@@ -36,9 +36,14 @@ h4 {
 #quote{
     color:blue;
     font-style: normal;
+    padding-top: 15px;
 }
 #quote-source{
     color:blue;
+}
+.body-header{
+    color: hsl(240, 6%, 10%);
+    padding-top: 50px;
 }
 .container {
     display:flex;
