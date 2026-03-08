@@ -5,8 +5,9 @@ h1 {
   padding-left: 100px;
 }
 header {
-    background-image: url('../images/lesson04-mock2-banner-image.jpg');
+    background-image: url('../images/lesson04-mock2-banner-image.jpg'), radial-gradient(azure, blue);
     background-size: cover;
+    background-position: center center;
     padding-top: 25px;
     padding-bottom: 25px;
 }
@@ -63,7 +64,16 @@ p.side-news{
     width: 75%;
 }
 footer {
-    background-image: url('../images/lesson04-mock4-footer-image.jpg');
+    background-image: url('../images/lesson04-mock4-footer-image.jpg'),
+        linear-gradient( to right,
+            red, 
+            orange, 
+            yellow,
+            green,
+            blue,
+            indigo,
+            violet
+        );
 }
 .footer-container {
     display:flex;
