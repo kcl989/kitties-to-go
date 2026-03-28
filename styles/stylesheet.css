@@ -11,6 +11,12 @@ header {
     padding-top: 25px;
     padding-bottom: 25px;
 }
+@media print {
+    body img {
+        display: none;
+    }
+}
+
 h2 {
   color: hsl(285, 40%, 98%);
   font-style: italic;
@@ -59,6 +65,14 @@ h4 {
   flex-wrap: wrap;
   justify-content: flex-end;
   align-items:end; 
+}
+@media (max-width: 768px) {
+    .sidebar {
+        display: none;
+    }
+    .article {
+        width: 100%;
+    }
 }
 p.side-news{
     width: 75%;
